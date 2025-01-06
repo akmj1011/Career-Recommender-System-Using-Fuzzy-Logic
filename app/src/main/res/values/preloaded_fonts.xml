@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aldrich</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/archivo_narrow</item>
+        <item>@font/b612_bold</item>
+        <item>@font/bai_jamjuree</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/baumans</item>
+        <item>@font/bebas_neue</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/cagliostro</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/eater</item>
+        <item>@font/eczar_medium</item>
+        <item>@font/englebert</item>
+        <item>@font/expletus_sans</item>
+        <item>@font/federant</item>
+        <item>@font/train_one</item>
+    </array>
+</resources>

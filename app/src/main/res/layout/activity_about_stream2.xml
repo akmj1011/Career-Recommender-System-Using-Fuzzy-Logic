@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q1"
+    tools:context=".AboutStream2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:id="@+id/r1">
+    <TextView
+        android:id="@+id/adv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bai_jamjuree"
+        android:text="ADVANTAGES"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+        <ListView
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/adv_list"
+            android:layout_below="@id/adv"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_below="@id/r1">
+        <TextView
+            android:id="@+id/cha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/bai_jamjuree"
+            android:text="CHALLENGES"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ListView
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cha_list"
+            android:layout_below="@id/cha"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

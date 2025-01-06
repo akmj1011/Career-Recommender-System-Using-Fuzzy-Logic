@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".Insights">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/List1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/englebert"
+        android:text="YOUR SUITABILTIES FOR ALL STREAMS "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_height="300dp" />
+
+    <ListView
+        android:id="@+id/List1"
+        android:layout_width="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="250dp"
+        android:layout_below="@id/chart1" />
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bulletin_circle_1"
+        android:layout_below="@id/chart1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/List1" />
+
+    <ImageView
+        android:id="@+id/b2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bulletin_circle_2"
+        android:layout_below="@id/b1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/List1" />
+
+    <ImageView
+        android:id="@+id/b3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bulletin_circle_3"
+        android:layout_below="@id/b2"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/List1" />
+
+    <ImageView
+        android:id="@+id/b4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bulletin_circle_4"
+        android:layout_below="@id/b3"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/List1" />
+
+    <ImageView
+        android:id="@+id/b5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bulletin_circle_5"
+        android:layout_below="@id/b4"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/List1" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="CONTINUE"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#E21717"
+        android:shadowColor="#E21717"
+        android:textStyle="bold"/>
+</RelativeLayout>

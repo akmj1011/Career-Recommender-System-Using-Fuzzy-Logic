@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".WelcomePage">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="HELLO THERE !"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bebas_neue"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bebas_neue"
+        android:textColor="#E03B8B"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/wel_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/englebert"
+        android:gravity="center"
+        android:text="WELCOME TO\n\nPERSONALIZED CAREER\n\n RECOMMENDATION SYSTEM"
+        android:textAlignment="center"
+        android:textColor="#51E1ED"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info_1"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wel_msg"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/englebert"
+        android:gravity="center"
+        android:text="JUMP STRAIGHT IN !\n\n by entering your academic scores"
+        android:textAlignment="center"
+        android:textColor="#E03B8B"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Start_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:backgroundTint="@color/white"
+        android:text="   START   "
+        android:textColor="#E21717"
+        android:layout_below="@id/info_1"/>
+
+    <TextView
+        android:id="@+id/info_2"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Start_Btn"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/englebert"
+        android:gravity="center"
+        android:text="OR...\n\n Like to know more about the App ?\n\n CLICK BELOW !"
+        android:textAlignment="center"
+        android:textColor="#E03B8B"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/About_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:backgroundTint="@color/white"
+        android:text="   ABOUT   "
+        android:textColor="#E21717"
+        android:layout_below="@id/info_2"/>
+
+</RelativeLayout>

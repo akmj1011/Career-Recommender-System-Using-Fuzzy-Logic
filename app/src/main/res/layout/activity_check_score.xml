@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".Check_Score">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_height="100dp">
+
+            <ImageButton
+                android:id="@+id/info_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="200dp"
+                android:src="@drawable/info_3"
+                android:background="@drawable/round_button"
+                android:contentDescription="The Grades are your scores in STEM subjects of Board exams" />
+
+            <Button
+                android:id="@+id/history_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/info_btn"
+                android:textSize="10sp"
+                android:text="Check History"/>
+
+        </RelativeLayout>
+            <TextView
+                android:id="@+id/math_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/eczar_medium"
+                android:gravity="center"
+                android:text="MATHS SCORE"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/math_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/math_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/b612_bold"
+                android:gravity="center"
+                android:textColor="#ff5345"
+                android:textSize="33sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cs_text"
+                android:layout_below="@id/math_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/eczar_medium"
+                android:gravity="center"
+                android:text="COMPUTER SCIENCE SCORE"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cs_mark"
+                android:layout_below="@id/cs_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/b612_bold"
+                android:textColor="#ff5345"
+                android:textSize="33sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phy_text"
+                android:layout_below="@id/cs_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="10dp"
+                android:text="PHYSICS SCORE"
+                android:gravity="center"
+                android:fontFamily="@font/eczar_medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phy_mark"
+                android:layout_below="@id/phy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/b612_bold"
+                android:textColor="#ff5345"
+                android:textSize="33sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chem_text"
+                android:layout_below="@id/phy_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="CHEMISTRY SCORE"
+                android:fontFamily="@font/eczar_medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chem_mark"
+                android:layout_below="@id/chem_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/b612_bold"
+                android:textColor="#ff5345"
+                android:textSize="33sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

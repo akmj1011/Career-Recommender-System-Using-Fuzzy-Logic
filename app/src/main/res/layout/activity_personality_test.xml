@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_waves"
+    android:padding="16dp"
+    tools:context=".Personality_test">
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/eater"
+        android:gravity="center"
+        android:text="PERSONALITY TEST\n(MBTI)"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@id/tit"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="Question Here"
+        android:textAlignment="center"
+        android:textColor="#eb2f06"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsRadioGroup"
+        android:text="Next"
+        android:layout_marginLeft="120dp"
+        android:textSize="16sp" />
+
+</RelativeLayout>

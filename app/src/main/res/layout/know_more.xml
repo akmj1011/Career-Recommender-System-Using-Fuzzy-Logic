@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".KnowMore">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="casual"
+        android:text="YOU HAVE A . . ."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/res1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FC427B"
+        android:textSize="120sp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/res1"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:text="Suitabilty with"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/txt2"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#FC427B"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:gravity="center_horizontal"
+        android:text="To get more insights..."
+        android:textAlignment="center"
+        android:textColor="#51E1ED"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/txt4"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:textAlignment="center"
+        android:text="Tap below"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt5"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="NEXT"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#E21717"
+        android:shadowColor="#E21717"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

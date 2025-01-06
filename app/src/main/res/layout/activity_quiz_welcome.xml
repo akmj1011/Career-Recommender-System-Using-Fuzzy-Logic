@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".Quiz_Welcome">
+
+
+    <TextView
+        android:id="@+id/wel_msg"
+        android:layout_width="348dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/englebert"
+        android:gravity="center"
+        android:text="WELCOME TO\n\nPERSONALITY TEST"
+        android:textAlignment="center"
+        android:textColor="#51E1ED"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info_1"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wel_msg"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/englebert"
+        android:gravity="center"
+        android:text="In the upcoming quiz,\n\n you are required answer a set of\n\n 70 questions"
+        android:textAlignment="center"
+        android:textColor="#E03B8B"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/info_2"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/englebert"
+        android:gravity="center"
+        android:text="This test will us help in identifying\n\n your personality type and in getting\n\n your recommendation spot on !! "
+        android:textAlignment="center"
+        android:textColor="#E03B8B"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Start_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:backgroundTint="@color/white"
+        android:text="   TAKE TEST   "
+        android:textColor="#E21717"
+        android:layout_below="@id/info_2"/>
+
+</RelativeLayout>

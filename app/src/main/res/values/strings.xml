@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">LIVE IN LAB</string>
+    <string name="title_activity_welcome_page">WelcomePage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="get_started_by_entering_your_academic_scores">Get started by entering your Academic Scores</string>
+    <string name="title_activity_about_stream1">AboutStream1</string>
+
+    <string name="Civil">This course is a fascinating journey into the design, construction, and maintenance of the physical and natural environment.\n\n
+        As a Civil Engineering student, you\'ll delve into subjects like structural analysis, transportation engineering, and environmental sustainability, gaining the knowledge and skills to shape the infrastructure that defines our communities.\n\n
+        Get ready to build a foundation for a fulfilling career, where every project becomes a testament to your creativity and problem-solving abilities</string>
+
+    <string name="CSE">Welcome to the dynamic world of Computer Science.\n\nEmbark on a thrilling journey where innovation meets technology, and creativity converges with logic.\n\n0A course designed to equip you with the skills and knowledge needed to navigate the ever-evolving landscape of computing.\n\nFrom algorithms to artificial intelligence, programming to problem-solving, discover the limitless possibilities that await you in the fascinating realm of Computer Science.\n\nJoin to explore the frontiers of technology and shape the future of digital innovation</string>
+
+    <string name="EEE">Welcome to the electrifying realm of Electrical Engineering.\n\n
+        Unleash your potential as you delve into the fascinating world where circuits come to life, and power meets precision.\n\n
+        This is a gateway to understanding the intricacies of electrical systems, from designing circuits to powering sustainable solutions.\n\n
+        Get ready to spark innovation, illuminate ideas, and electrify your future.\n\n
+        Join on a journey where creativity and engineering converge to shape a brighter and more connected world.\n\n
+        Let the sparks fly as you embark on a thrilling adventure in Electrical Engineering!</string>
+
+    <string name="Chem">Step into the captivating world of Chemical Engineering.\n\n
+        Dive into a realm where science meets innovation and discover the art of transforming molecules into impactful solutions.\n\n
+        This course offers a gateway to unraveling the mysteries of matter, from designing processes to creating sustainable solutions.\n\n
+        Join to explore the fascinating intersection of chemistry, engineering, and technology.\n\n
+        Get ready to unleash your creativity, solve real-world challenges, and shape a cleaner, brighter future through the marvels of Chemical Engineering.\n\n
+        Embrace the journey of discovery and innovation that awaits you!</string>
+
+    <string name="Mech">Welcome to the dynamic universe of Mechanical Engineering.\n\n
+        Embark on a thrilling adventure where innovation and design converge to shape the future.\n\n
+        This course is a gateway to understanding the principles of mechanics, materials, and machines that power the world around us.\n\n
+        From cutting-edge technology to sustainable solutions, dive into a curriculum that prepares you to engineer solutions for a diverse range of challenges.\n\n
+        Join the pursuit of knowledge, creativity, and hands-on problem-solving.\n\n
+        Let the gears of your imagination turn as you explore the exciting world of Mechanical Engineering.\n\n
+        Your journey to transform ideas into reality begins here!</string>
+</resources>

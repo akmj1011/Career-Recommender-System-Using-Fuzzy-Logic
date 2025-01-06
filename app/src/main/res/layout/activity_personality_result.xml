@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".Personality_Result">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="70dp"
+                android:gravity="center"
+                android:text="PERSONALITY TEST RESULTS"
+                android:fontFamily="@font/bebas_neue"
+                android:textColor="@color/white"
+                android:textSize="44dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/res1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tit"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/train_one"
+                android:text="YOUR PERSONALITY TYPE IS"
+                android:textAlignment="center"
+                android:textColor="#E71C23"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/res2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/annie_use_your_telescope"
+                android:textAlignment="center"
+                android:textColor="#f53b57"
+                android:textStyle="bold"
+                android:textSize="45sp" />
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res2"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="  NEXT  "
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#E21717"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
